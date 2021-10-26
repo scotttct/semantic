@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header, nav, footer {
+    flex: 1 100%;
+    padding: 20px 50px;
+}
+
+header {
+    
+    background-color: white;
+    color: #2e3333;
+}
+
+hgroup {
+    text-align:center;
+}
+
+nav {
+    
+    background-color: black;
+    color: #aeb1b1;
+    
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav-li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  .nav-li:last-child {
+    border-right: none;
+  }
+  
+  .nav-li-a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-li-a:hover:not(.active) {
+    background-color: grey;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+aside {
+    flex: 1 auto;
+    background-color: #181d1d;
+    color: black;
+    padding: 50px 20px;
+}
+.aside-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.aside-li {
+    display: block;
+}
+
+.aside-li-a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: darkslategrey
+}
+
+.aside-li-a:hover:not(.active) {
+    color: grey;
+  }
+
+section {
+    flex: 4 auto;
+    background-color: white;
+    padding: 5px 5px;
+}
+
+article {
+    background-color: #f2f8f8;
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+.article-header {
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+}
