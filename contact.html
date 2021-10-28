@@ -32,25 +32,60 @@
             <section>
                 111 Hunter Ave.
                 <br>
-                Anywhere, USA 11111
+                Tampa, FL
+                <br><br>
+                phone: 555-555-5555
             </section>
         </article>
+        <article>
+            <section>
+                <h1>Contact Form</h1>
+                <form>
+					<div class="form-group">
+						<label for="firstname">First name*</label>
+						<input 
+							type="text" 
+							name="firstname" 
+							id="firstname" 
+							required 
+							class="form-element"
+							placeholder="John" />
+					</div>
+					<div class="form-group">
+						<label for="lastname">Last name*</label>
+						<input type="text" name="lastname" id="lastname" required class="form-element" placeholder="Doe" />
+					</div>
+					<div class="form-group">
+						<label for="email">Email address*</label>
+						<input type="email" name="email" id="email" required class="form-element" placeholder="john.doe@example.com" />
+					</div>
+					<div class="form-group">
+						<label for="company">Company</label>
+						<input type="text" name="company" id="company" class="form-element" placeholder="john.doe@example.com" />
+					</div>
+					<div class="form-group full">
+						<label for="message">What are you looking for?</label>
+						<textarea name="message" id="message" class="form-element" placeholder="I want a website please..."></textarea>
+					</div>
+					<div class="submit-group">
+						<input type="submit" value="SEND MESSAGE" />
+					</div>
+				</form>
+
+            </section>
+        </article>
+        
     </section>
     <aside>
         <section>
-            <h1>News Links</h1>
-            <ul class="aside-ul">
-                <li class="aside-li"><a class="aside-li-a" href="https://www.cnn.com/">CNN</a></li>
-                <li class="aside-li"><a class="aside-li-a" href="https://www.foxnews.com/">Fox News</a></li>
-            </ul>
+            <div id="map1" class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225470.28810858904!2d-82.59436868453878!3d27.994714747507967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20FL!5e0!3m2!1sen!2sus!4v1635402399864!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </section>
-        <figure>
-            <img width="200" height="200" 
-                src="images/R51.jpg" 
-                alt="bike" />
-            <figcaption>bike</figcaption>
-        </figure>
+     
     </aside>
     <footer>Footer</footer>
+    <script src="js/main.js"></script>
+    
 </body>
 </html>
